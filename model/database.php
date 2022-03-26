@@ -1,5 +1,5 @@
 <?php
-$dsn = 'mysql:dbname=zippyusedautos;host=kfgk8u2ogtoylkq9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com':
+$dsn = 'mysql:dbname=zippyusedautos;host=kfgk8u2ogtoylkq9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
 $username = 'tnu86ovjrc4uj06o';
 $password = ' ig021061rrg2kc73';
 
