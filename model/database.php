@@ -1,9 +1,10 @@
 <?php
-$dsn = "mysql:host=localhost;dbname=zippyusedautos";
-$username = 'root';
+$dsn = "kfgk8u2ogtoylkq9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=zippyusedautos";
+$username = 'tnu86ovjrc4uj06o';
+$password = ' ig021061rrg2kc73';
 
 try{
-    $db = new PDO($dsn, $username);
+    $db = new PDO($dsn, $username, $password);
 } catch(PDOException $e) {
     $error_message = 'Database Error: ';
     $error_message .= $e->getMessage();
