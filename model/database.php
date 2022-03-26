@@ -1,10 +1,10 @@
 <?php
-$host = 'mysql:host=kfgk8u2ogtoylkq9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+$hostname = 'mysql:host=kfgk8u2ogtoylkq9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
 $username = 'tnu86ovjrc4uj06o';
 $password = 'ig021061rrg2kc73';
 
 try{
-    $db = new PDO($host, $username, $password);
+    $db = new PDO($hostname, $username, $password);
 } catch(PDOException $e) {
     $error_message = 'Database Error: ';
     $error_message .= $e->getMessage();
