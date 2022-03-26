@@ -1,5 +1,5 @@
 <?php
-$dsn = "ygdlmxex3jvt9v67;dbname=zippyusedautos";
+$dsn = "kfgk8u2ogtoylkq9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $username = 'tnu86ovjrc4uj06o';
 $password = ' ig021061rrg2kc73';
 
